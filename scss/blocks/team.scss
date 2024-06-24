@@ -1,0 +1,54 @@
+@import "../base/mixins-extends.scss";
+@import'../base/vars.scss';
+.team {
+  &__content {
+    @extend %flex-x;
+    width: 1168px;
+    height: 290px;
+    padding-top: 100px;
+    padding-left: 136px;
+  }
+  &__customers {
+    @extend %flex-x;
+    width: 432px;
+    height: 290px;
+    padding-left: 132px;
+  }
+  &__main {
+    @include font-style($color-dark-brown, 32px, 400, 119%, none, none);
+  }
+  &__title {
+    @include font-style($color-light-brown, 15px, 400, 160%, none, uppercase);
+    padding-top: 14px;
+  }
+  &__link {
+    @include font-style($color-black, 16px, 400, 150%, none, none);
+    width: 451px;
+    height: 72px;
+    padding-top: 41px;
+  }
+  &__workers{
+    @extend %flex-x;
+    width: 734px;
+    height: 392px;
+    padding-left: 16px;
+    padding-top: 64px;
+  }
+  &__names{
+    @extend %flex-x;
+    padding-top: 36px;
+  }
+  &__right{
+    padding-left: 149px;
+  }
+  &__text{
+    width: 379px;
+    height: 392px;
+    padding-top: 100px;
+  }
+  &__info{
+    padding-left: 30px;
+  }
+}
+
+

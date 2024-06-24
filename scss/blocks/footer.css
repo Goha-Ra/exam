@@ -1,0 +1,31 @@
+.footer__social, .footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  height: 204px;
+}
+.footer__content {
+  width: 1168px;
+  height: 84px;
+}
+.footer__social {
+  padding-top: 119px;
+  padding-left: 362px;
+}
+.footer__text {
+  padding-left: 136px;
+  padding-top: 60px;
+  width: 695px;
+  height: 94px;
+}
+.footer__description {
+  color: #645C55;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 143%;
+  line-height: none;
+  text-transform: none;
+}/*# sourceMappingURL=footer.css.map */

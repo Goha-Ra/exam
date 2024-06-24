@@ -1,0 +1,38 @@
+@import "../base/vars.scss";
+@import "../base/mixins-extends.scss";
+
+.about {
+  &__title {
+    @include font-style($color-dark-brown, 32px, 400, 119%, none, none);
+    white-space: nowrap;
+    @media (max-width: 375px) {
+      flex-direction: column;
+      width: 375px;
+      padding-left: 45px;
+}
+  }
+  &__content {
+    width: 768px;
+    height: 582px;
+    @extend %flex-top;
+    padding-left: 336px;
+    padding-top: 100px;
+    @media (max-width: 375px) {
+      flex-direction: column;
+      width: 375px;
+      padding-left: 0;
+    }
+  }
+  &__text {
+    width: 493px;
+    height: 452px;
+    @include font-style($color-dark-brown, 16px, 400, 150%, none, none);
+    padding-left: 133px;
+  }
+  &__author {
+    width: 280px;
+    height: 100px;
+    @extend %flex-x;
+    padding-top: 10px;
+  }
+}

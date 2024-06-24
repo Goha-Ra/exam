@@ -1,0 +1,90 @@
+@import "../base/vars.scss";
+@import "../base/mixins-extends.scss";
+.header {
+  &__logo {
+    padding-left: 32px;
+  }
+  &__top {
+    @extend %flex-x;
+    width: 1200px;
+    height: 90px;
+    padding-left: 120px;
+    @media (max-width: 375px) {
+      flex-direction: column;
+      width: 375px;
+    }
+  }
+  &__text {
+    width: 600px;
+    height: 566px;
+    padding-left: 60px;
+    padding-top: 77px;
+  }
+  &__bottom {
+    @extend %flex-x;
+    background-color: #ece7e4;
+    height: 720px;
+    @media (max-width: 375px) {
+      width: 375px;
+      background-image: url("../../img/projects/house.svg");
+      background-position: no-repeat;
+      background-size: cover;
+      margin-top: 20px;
+    }
+  }
+  &__title {
+    @include font-style($color-black, 64px, 400, none, none, none);
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  &__description {
+    @include font-style($color-dark-brown, 16px, 400, none, 150%, none);
+    padding-top: 18px;
+    padding-left: 40px;
+  }
+  &__end {
+    padding-left: 45px;
+    padding-top: 30px;
+    @include font-style($color-black, 16px, 400, none, 150%, none);
+  }
+}
+
+.nav {
+  @extend %flex-x;
+  width: 585px;
+  height: 50px;
+  @media (max-width: 375px) {
+    width: 375px;
+    margin: auto;
+  }
+
+  &__list {
+    width: 383px;
+    @extend %flex-x;
+    @media (max-width: 375px) {
+      width: 0;
+    }
+  }
+  &__list a {
+    @include font-style($color-black, 15px, 400, none, 160%, none);
+    @media (max-width: 375px) {
+      display: none;
+    }
+  }
+}
+button {
+  width: 155px;
+  height: 40px;
+  background-color: #1b1a1a;
+  color: #ffffff;
+  border-radius: 14px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: #645c55;
+}
+h6 {
+  @include font-style($color-light-brown, 14px, 400, 143%, none, uppercase);
+  padding-left: 40px;
+}

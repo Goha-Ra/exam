@@ -1,0 +1,28 @@
+@import '../base/mixins-extends.scss';
+@import'../base/vars.scss';
+.touch{
+    margin-top: 150px;
+    background-color: #CEC4BC;
+    height: 314px;
+&__content{
+    padding-left: 136px;
+    @extend %flex-x;
+    width: 1168px;
+    height: 114px;
+}
+&__description{
+    @include font-style($color-black,40px,400,105%,none,none);
+}
+&__title{
+    @include font-style($color-light-brown,14px,400,143%,none,uppercase);
+}
+&__link{
+    @include font-style($color-black,16px,400,150%,none,none);
+    padding-top: 134px;
+}
+&__text{
+    width: 576px;
+    height: 114px;
+    padding-top: 100px;
+}
+}

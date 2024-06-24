@@ -1,0 +1,26 @@
+@import'../base/mixins-extends.scss';
+@import'../base/vars.scss';
+.process {
+  &__content {
+    width: 1200px;
+    height: 381px;
+    text-align: center;
+  }
+  &__text {
+    @include font-style($color-light-brown, 14px, 400, 143%, none, uppercase);
+    padding-left: 659px;
+    padding-top: 100px;
+  }
+  &__description {
+    width: 1168px;
+    height: 259px;
+    @extend %flex-x;
+    padding-left: 266px;
+    padding-top: 47px;
+  }
+  &__title {
+    @include font-style($color-black, 39px, 400, 108%, none, none);
+    padding-top: 13px;
+    padding-left: 486px;
+  }
+}

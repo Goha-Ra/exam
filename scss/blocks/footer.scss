@@ -1,0 +1,24 @@
+@import'../base/mixins-extends.scss';
+@import '../base/vars.scss';
+.footer{
+    height: 204px;
+    &__content{
+        width: 1168px;
+        height: 84px;
+        @extend %flex-x;
+    }
+    &__social{
+        @extend %flex-x;
+        padding-top: 119px;
+        padding-left: 362px;
+    }
+    &__text{
+        padding-left: 136px;
+        padding-top: 60px;
+        width: 695px;
+        height: 94px;
+    }
+    &__description{
+        @include font-style($color-light-brown,14px,400,143%,none,none);
+    }
+}

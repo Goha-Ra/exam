@@ -1,0 +1,17 @@
+.clients__customers, .clients__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clients {
+  background-color: #403e3b;
+}
+.clients__content {
+  width: 1168px;
+  height: 290px;
+}
+.clients__customers {
+  width: 432px;
+  height: 290px;
+}/*# sourceMappingURL=clients.css.map */

@@ -1,0 +1,16 @@
+.staircase {
+    background-image: url("../../img/staircase/stair.svg");
+    background-position: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-left: 60px;
+    &__title {
+      padding-top: 266px;
+      @include font-style($color-dark-brown, 14px, 400, 143%, none, uppercase);
+    }
+    &__description {
+      @include font-style($color-light-brown, 14px, 400, 150%, none, none);
+      width: 285px;
+      height: 48px;
+    }
+  }

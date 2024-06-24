@@ -1,0 +1,46 @@
+.touch__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.touch {
+  margin-top: 150px;
+  background-color: #CEC4BC;
+  height: 314px;
+}
+.touch__content {
+  padding-left: 136px;
+  width: 1168px;
+  height: 114px;
+}
+.touch__description {
+  color: #1B1A1A;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 105%;
+  line-height: none;
+  text-transform: none;
+}
+.touch__title {
+  color: #645C55;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 143%;
+  line-height: none;
+  text-transform: uppercase;
+}
+.touch__link {
+  color: #1B1A1A;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 150%;
+  line-height: none;
+  text-transform: none;
+  padding-top: 134px;
+}
+.touch__text {
+  width: 576px;
+  height: 114px;
+  padding-top: 100px;
+}/*# sourceMappingURL=touch.css.map */

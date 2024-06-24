@@ -1,0 +1,37 @@
+@import "../base/mixins-extends.scss";
+.clients {
+  background-color: #403e3b;
+  height: 410px;
+  &__content {
+    @extend %flex-x;
+    width: 1168px;
+    height: 290px;
+    padding-top: 60px;
+    padding-left: 136px;
+  }
+  &__customers {
+    @extend %flex-x;
+    width: 432px;
+    height: 290px;
+    padding-left: 132px;
+  }
+  &__title {
+    @include font-style($color-white, 32px, 400, 119%, none, none);
+  }
+  &__text {
+
+    @include font-style($color-light-milky, 14px, 400, 143%, none, uppercase);
+  }
+  &__description {
+    @include font-style($color-white, 15px, 400, 160%, none, none);
+    width: 451px;
+    height: 72px;
+    padding-top: 14px;
+  }
+}
+.studiocai{
+  padding-top: 128px;
+}
+.chill{
+  padding-top: 96px;
+}

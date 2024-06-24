@@ -1,0 +1,65 @@
+.team__names, .team__workers, .team__customers, .team__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team__content {
+  width: 1168px;
+  height: 290px;
+  padding-top: 100px;
+  padding-left: 136px;
+}
+.team__customers {
+  width: 432px;
+  height: 290px;
+  padding-left: 132px;
+}
+.team__main {
+  color: #403E3B;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 119%;
+  line-height: none;
+  text-transform: none;
+}
+.team__title {
+  color: #645C55;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 160%;
+  line-height: none;
+  text-transform: uppercase;
+  padding-top: 14px;
+}
+.team__link {
+  color: #1B1A1A;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 150%;
+  line-height: none;
+  text-transform: none;
+  width: 451px;
+  height: 72px;
+  padding-top: 41px;
+}
+.team__workers {
+  width: 734px;
+  height: 392px;
+  padding-left: 16px;
+  padding-top: 64px;
+}
+.team__names {
+  padding-top: 36px;
+}
+.team__right {
+  padding-left: 149px;
+}
+.team__text {
+  width: 379px;
+  height: 392px;
+  padding-top: 100px;
+}
+.team__info {
+  padding-left: 30px;
+}/*# sourceMappingURL=team.css.map */
